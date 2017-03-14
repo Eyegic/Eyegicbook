@@ -1,10 +1,4 @@
 @charset "utf-8";
-/* 广告页 */
-.cover-content {background-color:#00b38a; width:100%; height:1024px; text-align:center;}
-.cover-title {padding-top:150px;}
-.cover-icon {padding-top:250px;}
-.cover-motto {padding-top:250px;}
-.cover-motto h {font-size:30px; font-weight:normal; color:#fff;}
 /* 首页 */
 .showbox {position:relative; height:250px; width:768px; overflow:hidden; background-color:#eee;}
 .imagebox {position:relative; height:250px; width:768px; top:0; overflow:hidden;}
@@ -12,27 +6,30 @@
 .icobox {position:absolute; border:none; width:150px; height:5px; bottom:5px; text-align:center; line-height:40px; overflow:hidden; left:325px;}
 .icobox span {width:15px; height:5px; cursor:pointer; float:left; background-color:#ddd; margin-left:5px;}
 .icobox span.active {cursor:default; background-color:#fff;}
-.index-content {width:768px;}
+.index-content {width:768px; margin-bottom:120px;}
 .book-list {margin:0 20px;}
-.list-title {margin:30px 0 15px 0}
+.list-title {margin:30px 10px 15px 10px;}
 .list-title h1 {font-size:20px;}
 .list-title h2 {font-size:20px; color:#00b38a;}
 .list-title img {height:20px; width:20px; padding-top:4px;}
-.bookslide {margin:0 20px; height:5px; background-color:#eee;}
-.bookgroup {}
+.bookslide {height:5px; background-color:#eee;}
+.bookgroup {margin:20px 0; overflow:hidden; position:relative; width:300%;}
+.bookbox {width:250px; text-align:center; margin-right:25px;}
+.bookbox img {width:250px; height:300px;}
+.bookbox h1 {font-size:12px; color:#888; margin-top:5px;}
 /* 书架 */
-.header {height:70px; background-color:#00BDFF; text-align:center; position:fixed; top:0; z-index:9999; width:100%;}
+.header {height:70px; background-color:#00B38a; text-align:center; position:fixed; top:0; z-index:9999; width:100%;}
 .header-title {line-height:70px; font-size:30px; color:#fff;}
 .container {position:absolute; top:70px; width:100%;}
 .bookitem {width:33.3%; float:left; margin-top:40px; text-align:center;}
 .bookcover {margin-bottom:10px;}
-.bookcover img{width:150px; height:200px;}
+.bookcover img{width:200px; height:250px;}
 .bookname {font-size:18px;}
-.footer {height:70px; border-top:2px solid #ddd; text-align:center; position:fixed; bottom:0; z-index:9999; width:100%;}
+.footer {height:70px; border-top:2px solid #ddd; text-align:center; position:fixed; bottom:0; z-index:9999; width:100%; background-color:#fafafa;}
 .navbar {list-style:none; }
 .navbar li {display:inline-block; width:19.5%;}
-.icon img {width:50px; height:50px; margin:2px;}
-.icon-round img{width:90px; height:90px; border-radius:90px; position:relative; bottom:40px; border:2px solid #000;}
+.icon img {width:45px; height:45px; margin:2px;}
+.icon-round img{width:90px; height:90px; border-radius:90px; position:relative; bottom:40px; border:2px solid #fafafa;}
 /* 个人中心 */
 .info-group {height:150px;}
 .info-head {display:block; margin:25px 0 25px 80px;}
