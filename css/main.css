@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* 首页 */
-.showbox {position:relative; height:280px; width:1024px; overflow:hidden; background-color:#eee;}
-.imagebox {position:relative; height:280px; width:1024px; top:0; overflow:hidden;}
+.showbox {position:relative; height:280px; overflow:hidden; background-color:#eee;}
+.imagebox {position:relative; height:280px; top:0; overflow:hidden;}
 .imagebox img {display:block; width:1024px; height:280px; float:left;}
-.icobox {position:absolute; border:none; width:150px; height:5px; bottom:5px; text-align:center; line-height:40px; overflow:hidden; left:452px;}
+.icobox {position:absolute; border:none; width:150px; height:5px; bottom:5px; text-align:center; line-height:40px; overflow:hidden; left:400px;}
 .icobox span {width:15px; height:5px; cursor:pointer; float:left; background-color:#ddd; margin-left:5px;}
 .icobox span.active {cursor:default; background-color:#fff;}
-.index-content {width:1024px; margin-bottom:120px;}
+.index-content {margin-bottom:120px;}
 .book-list {margin:0 20px;}
 .list-title {margin:30px 10px 15px 10px;}
 .list-title h1 {font-size:20px;}
