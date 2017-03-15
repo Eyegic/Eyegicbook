@@ -20,7 +20,7 @@ $(document).ready(function() {
             };
             $(ico[activeID]).removeClass('active');
             $(ico[nextID]).addClass('active');
-            $(imagebox).animate({left:"-"+nextID*imageboxWidth+"px"}, speed);//jQuery中的animate函数
+            $(imagebox).animate({left:"-"+nextID*imageboxWidth+"px"}, speed);
             activeID=nextID;
         }
 
