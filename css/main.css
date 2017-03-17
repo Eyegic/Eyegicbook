@@ -1,9 +1,20 @@
 @charset "utf-8";
+/* 登录 注册*/
+.container-fluid {height:708px; position:absolute; top:70px; background-color:#fafafa; width:100%; text-align:center;}
+.container-fluid input {height:70px; font-size:20px;}
+.login-btn {display:inline-block; height:42px; line-height:42px; background:#ff5151; font-size:16px; color:#fff; text-align:center; padding:0 60px; border-radius:5px;}
+.regist-btn {display:inline-block; height:42px; line-height:42px; background:#3f6ce1; font-size:16px; color:#fff; text-align:center; padding:0 60px; border-radius:5px;}
+.login-form {margin-top:70px;}
+.login-form ul {margin-bottom:50px;}
+.login-form ul li {margin-bottom:10px;}
+.regist-form {margin-top:70px;}
+.regist-form ul {margin-bottom:50px;}
+.regist-form ul li {margin-bottom:10px;}
 /* 首页 */
-.showbox {position:relative; height:280px; overflow:hidden; background-color:#eee;}
-.imagebox {position:relative; height:280px; top:0; overflow:hidden;}
+.showbox {position:relative; width:1024px; height:280px; overflow:hidden; background-color:#eee;}
+.imagebox {position:relative; width:1024px;  height:280px; top:0; overflow:hidden;}
 .imagebox img {display:block; width:1024px; height:280px; float:left;}
-.icobox {position:absolute; border:none; width:150px; height:5px; bottom:5px; text-align:center; line-height:40px; overflow:hidden; left:400px;}
+.icobox {position:absolute; border:none; width:150px; height:5px; bottom:5px; text-align:center; line-height:40px; overflow:hidden; left:452px;}
 .icobox span {width:15px; height:5px; cursor:pointer; float:left; background-color:#ddd; margin-left:5px;}
 .icobox span.active {cursor:default; background-color:#fff;}
 .index-content {margin-bottom:120px;}
@@ -13,8 +24,9 @@
 .list-title h2 {font-size:20px; color:#00b38a;}
 .list-title img {height:20px; width:20px; padding-top:4px;}
 .bookslide {height:5px; background-color:#eee;}
-.bookgroup {margin:20px 0; overflow:hidden; position:relative; width:300%;}
-.bookbox {width:250px; text-align:center; margin-right:25px;}
+.bookgroup {margin:20px 0; overflow:hidden; position:relative;}
+.bookbox {width:220px; text-align:center; margin-right:34px;}
+.bookbox-last {margin-right:-34px;}
 .bookbox img {width:220px; height:280px;}
 .bookbox h1 {font-size:14px; color:#888; margin-top:5px;}
 /* 书架 */
@@ -50,7 +62,7 @@
 .item-right {display:block;}
 .item-right img {height:30px; width:30px;margin:22px 35px 22px 0;}
 /* 互动圈 */
-.header img {height:35px; width:35px; position:absolute; top:18px; right:30px;}
+.header-icon-right {height:35px; width:35px; position:absolute; top:18px; right:30px;}
 .bbs-block {background-color:#fafafa; padding:0 20px;}
 .block-title {padding:20px 0;}
 .block-title img {height:50px; width:50px; border-radius:30px;}
@@ -60,3 +72,32 @@
 .block-content h2 {font-size:18px;}
 .block-footer {margin-left:15px; padding-bottom:20px;}
 .block-footer span {font-size:18px; color:#888;}
+/* 书本详细 */
+.header-icon-left {height:35px; width:35px; position:absolute; top:18px; left:30px;}
+.detail-content {padding:40px 70px 50px 70px; background-color:#fafafa;}
+.detail-content img {width:220px; height:280px;}
+.detail-topic {margin-left:40px;}
+.detail-topic h1 {font-size:30px; font-weight:bold; padding-bottom:5px; border-bottom:solid 1px #ddd;}
+.detail-topic ul {margin-top:40px;}
+.detail-topic ul li {font-size:20px;margin-bottom:10px;}
+.save-btn {background-color:#168CC6; border-radius:5px; padding:5px 0; text-align:center;}
+.save-btn img {width:22px; height:22px;}
+.save-btn span {color:#fff; font-size:20px;}
+.detail-group {padding:40px 70px 30px 70px; background-color:#fafafa;}
+.detail-unit {margin-bottom:15px;}
+.detail-unit img {width:30px; height:30px;}
+.detail-unit span {font-size:25px; font-weight:bold; margin-right:5px;}
+.detail-text {font-size:20px;}
+.detail-text ul {margin-left:50px;}
+.detail-text ul li {margin-bottom:10px;}
+/* 课文详细 */
+.context-pic {position:relative;}
+.context-pic img {height:350px; width:1024px;}
+.context-title {position:absolute; top:150px; left:390px; font-size:30px; padding:10px 40px; background-color:rgba(255,255,255,0.8);border-radius:30px; border:solid 2px #fff;}
+.context-group {padding:40px 70px 30px 70px; background-color:#fafafa;}
+.context-unit {margin-bottom:15px;}
+.context-unit img {width:30px; height:30px;}
+.context-unit span {font-size:25px; font-weight:bold; margin-right:5px;}
+.context-text {font-size:20px;}
+.context-text ul {margin-left:50px;}
+.context-text ul li {margin-bottom:10px;}

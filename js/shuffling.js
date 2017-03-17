@@ -16,7 +16,7 @@ $(document).ready(function() {
             if (clickID+1){
                 nextID=clickID;
             }else{
-                nextID=(activeID+1)%4;
+                nextID=(activeID+1)%6;
             };
             $(ico[activeID]).removeClass('active');
             $(ico[nextID]).addClass('active');
