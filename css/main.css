@@ -71,7 +71,7 @@
 .block-title img {height:50px; width:50px; border-radius:30px;}
 .block-title span {margin-left:15px;}
 .from {font-size:18px; color:#888; }
-.tag {border:solid 1px blue; border-radius:3px; font-size:18px; color:blue;}
+.tag {border:solid 1px #00b38a; border-radius:8px; font-size:18px; color:#00b38a; padding:5px 2px;}
 .block-content {padding-bottom:20px;margin-left:15px;}
 .block-content h1 {font-size:23px; font-weight:bold; margin-bottom:10px;}
 .block-content h2 {font-size:18px;}
@@ -183,7 +183,7 @@
 .book-item {display:inline-block; padding:10px 20px;}
 .star-pic {height:30px; width:30px; position:relative; top:15px;}
 .book-item h2 {font-size:18px; position:relative; top:10px;}
-/* 我的评论 */
+/* 我的评论 我的消息*/
 .mycomment {background-color:#fff; padding-bottom:30px; border-bottom:solid 2px #f0f0f0;}
 .mycomment-title {padding:30px 30px 20px 0px;}
 .mycomment-title img{height:50px; width:50px; border-radius:30px; margin-right:30px; margin-left:30px;}
@@ -193,6 +193,11 @@
 .mycomment-content h1{font-size:20px; margin-left:110px; color:#666;}
 .mycomment-answer {margin-left:110px; margin-top:20px; background-color:#f0f0f0; margin-right:50px; border-radius:8px;}
 .mycomment-answer h1 {font-size:20px; padding:10px 10px; color:#666;}
-/* 我的消息 */
-
 /* 我的树木 */
+.tree-user {height:60px; border-radius:60px; background-color:rgba(255,255,255,0.5); position:relative; top:50px; left:800px;}
+.tree-item {display:block;}
+.tree-item img {height:50px; width:50px; border-radius:50px; margin-right:10px; position:relative; top:5px; left:5px;}
+.tree-name {color:#fff; font-size:20px; position:relative; top:10px;}
+.tree-level {color:#00b38a; text-align:right; border-radius:20px; border:solid 2px #00b38a; background-color:#f8e583; padding-right:5px; position:absolute; top:35px; padding-left:100px;}
+.tree-pic img {height:800px; width:800px; margin-top:-190px; margin-left:170px;}
+.tree-word {color:#1e50a2; padding:10px 10px; border-radius:10px; border:solid 2px #000; width:250px; background:#f7fcfe; font-size:20px; margin-left:300px; margin-top:150px; visibility:hidden;}

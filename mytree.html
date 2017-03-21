@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的小树</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.tree-pic img').click(function(){
+			$('.tree-word').css("visibility","visible");
+		})
+	})
+</script>
+</head>
+<body style="background:url(images/background-night.png) fixed center; background-size:150% 120%;">
+    <!-- 顶部导航栏 -->
+	<div class="header">
+		<a href="javascript:history.back()"><span><img src="images/back.png" class="header-icon-left"></span></a>
+		<h1 class="header-title">我的小树</h1>
+	</div>
+	<!-- 顶部导航栏结束 -->
+	<!-- 页面内容 -->
+	<div class="container">
+	    <div class="tree-user clearfix">
+	    	<div class="tree-item fl"><img src="images/yoga.jpg"></div>
+	    	<div class="tree-item fl"><div class="tree-name">Pandaice</div><div class="tree-level">56/100</div></div>
+	    </div>
+	    <div class="tree-word">今天你学习新课文了吗？</div>
+	    <div class="tree-pic"><img src="images/tree1.png"></div>
+	</div>
+	<!-- 页面内容结束 -->
+</body>
+</html>
