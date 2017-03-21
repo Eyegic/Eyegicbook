@@ -12,6 +12,22 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#zan").click(function() {
+			$("#zan img").attr("src", "images/zan-green.png");
+		});
+		$("#thanks").click(function() {
+			$("#thanks img").attr("src", "images/thanks-green.png");
+		});
+		$("#collect").click(function() {
+			$("#collect img").attr("src", "images/collect-green.png");
+		});
+		$("#comment").click(function() {
+			$("#comment img").attr("src", "images/comment-green.png");
+		});
+	})
+</script>
 </head>
 <body>
     <!-- 顶部导航栏 -->
@@ -40,21 +56,21 @@
 	<!-- 底部工具栏 -->
 	<div class="footer">
 		<ul class="navbar">
-			<li>
-				<div class="icon"><img src="images/bookshelf.png" alt="icon"></div>
-				<h>赞同</h>
+			<li id="zan">
+				<div class="icon"><img src="images/zan.png" alt="icon"></div>
+				<h>赞同(660)</h>
 			</li>
-			<li>
-				<div class="icon"><img src="images/bookstore.png" alt="icon"></div>
+			<li id="thanks">
+				<div class="icon"><img src="images/thanks.png" alt="icon"></div>
 				<h>感谢作者</h>
 			</li>
-			<li>
-				<div class="icon"><img src="images/bbs-green.png" alt="icon"></div>
+			<li id="collect">
+				<div class="icon"><img src="images/collect.png" alt="icon"></div>
 				<h>加入收藏</h>
 			</li>
-			<li>
-				<a href="comment.html"><div class="icon"><img src="images/center.png" alt="icon"></div>
-				<h>评论</h></a>
+			<li id="comment">
+				<a href="comment.html"><div class="icon"><img src="images/comment.png" alt="icon"></div>
+				<h>评论(451)</h></a>
 			</li>
 		</ul>
 	</div>
