@@ -12,6 +12,13 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.info-sign').click(function(){
+			$('info-sign').css("background-color","#ddd");
+		})
+	})
+</script>
 </head>
 <body>
     <!-- 顶部导航栏 -->
@@ -28,7 +35,7 @@
 				<h>Pandaice</h>
 				<div class="info-level">LV1</div>
 			</div>
-			<div class="info-regist fl">
+			<div class="info-regist fr">
 				<h>连续签到</h>
 				<h1>7</h1>
 				<div class="info-sign">签到</div>

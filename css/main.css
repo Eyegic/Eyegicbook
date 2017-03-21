@@ -29,6 +29,7 @@
 .bookbox-last {margin-right:-34px;}
 .bookbox img {width:220px; height:280px;}
 .bookbox h1 {font-size:14px; color:#888; margin-top:5px;}
+.index-search {height:40px; width:40px; position:absolute; right:20px; top:10px;}
 /* 书架 */
 .header {height:70px; background-color:#00B38a; text-align:center; position:fixed; top:0; z-index:9999; width:100%;}
 .header-title {line-height:70px; font-size:30px; color:#fff;}
@@ -52,7 +53,7 @@
 .info-name {display:block; margin:42px 0 42px 50px;}
 .info-name h {font-size:40px;}
 .info-level {background-color:red; border-radius:4px; width:40px; height:20px; color:#fff; text-align:center; line-height:20px;}
-.info-regist {display:block; margin:23px 0 23px 180px; text-align:center; padding-left:40px; border-left:2px solid #ddd;}
+.info-regist {display:block; margin:23px 150px 23px 0px; text-align:center; padding-left:40px; border-left:2px solid #ddd;}
 .info-regist h {font-size:20px; color:#888;}
 .info-regist h1 {font-size:30px; color:red; padding:5px 0;}
 .info-sign {background-color:green; border-radius:4px; width:70px; height:30px; color:#fff; text-align:center; font-size:22px; margin:0 5px;}
@@ -150,7 +151,7 @@
 .search-category {height:80px; line-height:80px; text-align:center; background-color:#fafafa;}
 .search-category span {line-height:80px; font-size:25px; margin:0 5px; color:#444;}
 .search-category span img{width:30px; height:30px;}
-.search-tag {font-size:20px;}
+.search-tag {font-size:20px; padding-bottom:40px;}
 .search-tag h1 {color:#888; padding:30px 0 0 40px;}
 .tag-item {margin-left:40px; margin-top:30px; border:2px solid #ddd; border-radius:30px; padding:10px 10px;}
 .search-history {font-size:20px;}

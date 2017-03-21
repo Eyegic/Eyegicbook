@@ -12,6 +12,15 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.save-btn').click(function(){
+            $.post("url", {}, function(){
+                $('save-btn').css("background-color", "#ddd");
+            })
+        })
+    })
+</script>
 </head>
 <body>
     <div class="header">
