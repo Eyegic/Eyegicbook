@@ -15,7 +15,10 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('.info-sign').click(function(){
-			$('info-sign').css("background-color","#ddd");
+			$('.info-sign').css("background-color","#ddd");
+			var count = $('.info-regist h1').text();
+			count++;
+			$('.info-regist h1').text(count);
 		})
 	})
 </script>
