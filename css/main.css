@@ -199,5 +199,5 @@
 .tree-item img {height:50px; width:50px; border-radius:50px; margin-right:10px; position:relative; top:5px; left:5px;}
 .tree-name {color:#fff; font-size:20px; position:relative; top:10px;}
 .tree-level {color:#00b38a; text-align:right; border-radius:20px; border:solid 2px #00b38a; background-color:#f8e583; padding-right:5px; position:absolute; top:35px; padding-left:100px;}
-.tree-pic img {height:800px; width:800px; margin-top:-255px; margin-left:170px;}
-.tree-word {color:#1e50a2; padding:10px 10px; border-radius:10px; border:solid 2px #000; width:250px; background:#f7fcfe; font-size:20px; margin-left:300px; margin-top:150px; visibility:hidden;}
+.tree-pic img {height:800px; width:800px; margin-top:-355px; margin-left:170px;}
+.tree-word {color:#1e50a2; padding:10px 10px; border-radius:10px; border:solid 2px #000; width:250px; background:#f7fcfe; font-size:20px; margin-left:300px; margin-top:150px; visibility:hidden; margin-bottom:100px;}
